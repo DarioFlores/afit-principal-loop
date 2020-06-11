@@ -1,0 +1,24 @@
+{
+  "name": "ConsultarTiposDatosAdicionalesResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "arrayTiposDatosAdicionales": {
+      "type": "ArrayCodigosDescripcionesType"
+    },
+    "evento": {
+      "type": "CodigoDescripcionType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

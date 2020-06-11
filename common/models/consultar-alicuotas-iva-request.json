@@ -1,0 +1,21 @@
+{
+  "name": "consultarAlicuotasIVARequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarAlicuotasIVARequest": {
+      "type": "ConsultarAlicuotasIVARequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

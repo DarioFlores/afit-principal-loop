@@ -1,0 +1,39 @@
+{
+  "name": "DatoAdicionalType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "t": {
+      "type": "number"
+    },
+    "c1": {
+      "type": "string"
+    },
+    "c2": {
+      "type": "string"
+    },
+    "c3": {
+      "type": "string"
+    },
+    "c4": {
+      "type": "string"
+    },
+    "c5": {
+      "type": "string"
+    },
+    "c6": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

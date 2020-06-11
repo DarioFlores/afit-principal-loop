@@ -1,0 +1,24 @@
+{
+  "name": "ConsultarUltimoComprobanteAutorizadoRequestType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "authRequest": {
+      "type": "AuthRequestType"
+    },
+    "consultaUltimoComprobanteAutorizadoRequest": {
+      "type": "ConsultaUltimoComprobanteAutorizadoRequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

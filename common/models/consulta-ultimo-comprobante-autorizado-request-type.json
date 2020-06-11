@@ -1,0 +1,24 @@
+{
+  "name": "ConsultaUltimoComprobanteAutorizadoRequestType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "codigoTipoComprobante": {
+      "type": "number"
+    },
+    "numeroPuntoVenta": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

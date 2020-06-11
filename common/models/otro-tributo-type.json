@@ -1,0 +1,30 @@
+{
+  "name": "OtroTributoType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "codigo": {
+      "type": "number"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "baseImponible": {
+      "type": "number"
+    },
+    "importe": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

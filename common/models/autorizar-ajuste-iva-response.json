@@ -1,0 +1,21 @@
+{
+  "name": "autorizarAjusteIVAResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "autorizarAjusteIVAResponse": {
+      "type": "AutorizarAjusteIVAResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

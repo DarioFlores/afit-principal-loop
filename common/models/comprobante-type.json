@@ -1,0 +1,105 @@
+{
+  "name": "ComprobanteType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "codigoTipoComprobante": {
+      "type": "number"
+    },
+    "numeroPuntoVenta": {
+      "type": "number"
+    },
+    "numeroComprobante": {
+      "type": "number"
+    },
+    "fechaEmision": {
+      "type": "date"
+    },
+    "codigoTipoAutorizacion": {
+      "type": "string"
+    },
+    "codigoAutorizacion": {
+      "type": "number"
+    },
+    "fechaVencimiento": {
+      "type": "date"
+    },
+    "codigoTipoDocumento": {
+      "type": "number"
+    },
+    "numeroDocumento": {
+      "type": "number"
+    },
+    "importeGravado": {
+      "type": "number"
+    },
+    "importeNoGravado": {
+      "type": "number"
+    },
+    "importeExento": {
+      "type": "number"
+    },
+    "importeSubtotal": {
+      "type": "number"
+    },
+    "importeOtrosTributos": {
+      "type": "number"
+    },
+    "importeTotal": {
+      "type": "number"
+    },
+    "codigoMoneda": {
+      "type": "string"
+    },
+    "cotizacionMoneda": {
+      "type": "number"
+    },
+    "observaciones": {
+      "type": "string"
+    },
+    "codigoConcepto": {
+      "type": "number"
+    },
+    "fechaServicioDesde": {
+      "type": "date"
+    },
+    "fechaServicioHasta": {
+      "type": "date"
+    },
+    "fechaVencimientoPago": {
+      "type": "date"
+    },
+    "fechaHoraGen": {
+      "type": "dateTime"
+    },
+    "arrayComprobantesAsociados": {
+      "type": "ArrayComprobantesAsociadosType"
+    },
+    "arrayOtrosTributos": {
+      "type": "ArrayOtrosTributosType"
+    },
+    "arrayItems": {
+      "type": "ArrayItemsType"
+    },
+    "arraySubtotalesIVA": {
+      "type": "ArraySubtotalesIVAType"
+    },
+    "arrayDatosAdicionales": {
+      "type": "ArrayDatosAdicionalesType"
+    },
+    "arrayCompradores": {
+      "type": "ArrayCompradoresType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

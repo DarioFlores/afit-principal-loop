@@ -1,0 +1,21 @@
+{
+  "name": "informarCAEANoUtilizadoPtoVtaResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "informarCAEANoUtilizadoPtoVtaResponse": {
+      "type": "InformarCAEANoUtilizadoPtoVtaResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

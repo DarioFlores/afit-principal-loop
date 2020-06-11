@@ -1,0 +1,24 @@
+{
+  "name": "ConsultarMonedasResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "arrayMonedas": {
+      "type": "ArrayCodigosDescripcionesStringType"
+    },
+    "evento": {
+      "type": "CodigoDescripcionType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

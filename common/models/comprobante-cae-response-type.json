@@ -1,0 +1,39 @@
+{
+  "name": "ComprobanteCAEResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "cuit": {
+      "type": "number"
+    },
+    "codigoTipoComprobante": {
+      "type": "number"
+    },
+    "numeroPuntoVenta": {
+      "type": "number"
+    },
+    "numeroComprobante": {
+      "type": "number"
+    },
+    "fechaEmision": {
+      "type": "date"
+    },
+    "CAE": {
+      "type": "number"
+    },
+    "fechaVencimientoCAE": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

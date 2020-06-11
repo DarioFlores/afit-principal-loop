@@ -1,0 +1,21 @@
+{
+  "name": "ArrayCodigosDescripcionesStringType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "codigoDescripcion": {
+      "type": "CodigoDescripcionStringType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

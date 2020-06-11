@@ -1,0 +1,21 @@
+{
+  "name": "consultarPuntosVentaCAEAResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarPuntosVentaCAEAResponse": {
+      "type": "ConsultarPuntosVentaResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

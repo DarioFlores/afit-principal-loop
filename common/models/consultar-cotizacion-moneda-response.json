@@ -1,0 +1,21 @@
+{
+  "name": "consultarCotizacionMonedaResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarCotizacionMonedaResponse": {
+      "type": "ConsultarCotizacionMonedaResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

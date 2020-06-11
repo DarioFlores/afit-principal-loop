@@ -1,0 +1,51 @@
+{
+  "name": "ItemType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "unidadesMtx": {
+      "type": "number"
+    },
+    "codigoMtx": {
+      "type": "string"
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "cantidad": {
+      "type": "number"
+    },
+    "codigoUnidadMedida": {
+      "type": "number"
+    },
+    "precioUnitario": {
+      "type": "number"
+    },
+    "importeBonificacion": {
+      "type": "number"
+    },
+    "codigoCondicionIVA": {
+      "type": "number"
+    },
+    "importeIVA": {
+      "type": "number"
+    },
+    "importeItem": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

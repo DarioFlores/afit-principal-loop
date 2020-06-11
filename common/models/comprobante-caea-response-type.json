@@ -1,0 +1,30 @@
+{
+  "name": "ComprobanteCAEAResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CAEA": {
+      "type": "number"
+    },
+    "codigoTipoComprobante": {
+      "type": "number"
+    },
+    "numeroPuntoVenta": {
+      "type": "number"
+    },
+    "numeroComprobante": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

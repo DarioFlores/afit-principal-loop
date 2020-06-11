@@ -1,0 +1,33 @@
+{
+  "name": "AutorizarAjusteIVAResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "resultado": {
+      "type": "string"
+    },
+    "comprobanteResponse": {
+      "type": "ComprobanteCAEResponseType"
+    },
+    "arrayObservaciones": {
+      "type": "ArrayCodigosDescripcionesType"
+    },
+    "arrayErrores": {
+      "type": "ArrayCodigosDescripcionesType"
+    },
+    "evento": {
+      "type": "CodigoDescripcionType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "consultarCondicionesIVAResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarCondicionesIVAResponse": {
+      "type": "ConsultarCondicionesIVAResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

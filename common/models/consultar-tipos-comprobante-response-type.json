@@ -1,0 +1,24 @@
+{
+  "name": "ConsultarTiposComprobanteResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "arrayTiposComprobante": {
+      "type": "ArrayCodigosDescripcionesType"
+    },
+    "evento": {
+      "type": "CodigoDescripcionType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

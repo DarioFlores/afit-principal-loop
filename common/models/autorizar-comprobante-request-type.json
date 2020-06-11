@@ -1,0 +1,24 @@
+{
+  "name": "AutorizarComprobanteRequestType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "authRequest": {
+      "type": "AuthRequestType"
+    },
+    "comprobanteCAERequest": {
+      "type": "ComprobanteType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

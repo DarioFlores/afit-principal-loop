@@ -1,0 +1,24 @@
+{
+  "name": "ConsultarPuntosVentaResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "arrayPuntosVenta": {
+      "type": "ArrayPuntosVentaType"
+    },
+    "evento": {
+      "type": "CodigoDescripcionType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

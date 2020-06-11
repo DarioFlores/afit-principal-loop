@@ -1,0 +1,21 @@
+{
+  "name": "ArrayComprobantesAsociadosType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "comprobanteAsociado": {
+      "type": "ComprobanteAsociadoType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

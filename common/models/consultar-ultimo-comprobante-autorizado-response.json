@@ -1,0 +1,21 @@
+{
+  "name": "consultarUltimoComprobanteAutorizadoResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarUltimoComprobanteAutorizadoResponse": {
+      "type": "ConsultarUltimoComprobanteAutorizadoResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

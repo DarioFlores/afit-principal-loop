@@ -1,0 +1,21 @@
+{
+  "name": "consultarPuntosVentaRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarPuntosVentaRequest": {
+      "type": "ConsultarPuntosVentaRequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

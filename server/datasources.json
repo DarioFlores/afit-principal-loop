@@ -1,0 +1,9 @@
+{
+  "afipSoapDS": {
+    "url": "https://fwshomo.afip.gov.ar/wsmtxca/services/MTXCAService",
+    "name": "afipSoapDS",
+    "wsdl": "https://fwshomo.afip.gov.ar/wsmtxca/services/MTXCAService?wsdl",
+    "remotingEnabled": true,
+    "connector": "soap"
+  }
+}

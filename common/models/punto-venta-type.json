@@ -1,0 +1,27 @@
+{
+  "name": "PuntoVentaType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "numeroPuntoVenta": {
+      "type": "number"
+    },
+    "bloqueado": {
+      "type": "string"
+    },
+    "fechaBaja": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

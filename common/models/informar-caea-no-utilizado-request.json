@@ -1,0 +1,21 @@
+{
+  "name": "informarCAEANoUtilizadoRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "informarCAEANoUtilizadoRequest": {
+      "type": "InformarCAEANoUtilizadoRequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

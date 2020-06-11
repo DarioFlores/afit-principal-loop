@@ -1,0 +1,27 @@
+{
+  "name": "CompradorType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "codigoTipoDocumento": {
+      "type": "number"
+    },
+    "numeroDocumento": {
+      "type": "number"
+    },
+    "porcentaje": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

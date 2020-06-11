@@ -1,0 +1,21 @@
+{
+  "name": "consultarPtosVtaCAEANoInformadosResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarPtosVtaCAEANoInformadosResponse": {
+      "type": "ConsultarPtosVtaCAEANoInformadosResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

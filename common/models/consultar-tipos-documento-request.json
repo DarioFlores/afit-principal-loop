@@ -1,0 +1,21 @@
+{
+  "name": "consultarTiposDocumentoRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarTiposDocumentoRequest": {
+      "type": "ConsultarTiposDocumentoRequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

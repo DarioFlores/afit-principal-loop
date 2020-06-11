@@ -1,0 +1,21 @@
+{
+  "name": "consultarUnidadesMedidaRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarUnidadesMedidaRequest": {
+      "type": "ConsultarUnidadesMedidaRequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

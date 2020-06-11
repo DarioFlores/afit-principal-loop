@@ -1,0 +1,21 @@
+{
+  "name": "informarAjusteIVACAEARequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "informarAjusteIVACAEARequest": {
+      "type": "InformarAjusteIVACAEARequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "consultarTiposComprobanteRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarTiposComprobanteRequest": {
+      "type": "ConsultarTiposComprobanteRequestType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "AuthRequestType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "token": {
+      "type": "string"
+    },
+    "sign": {
+      "type": "string"
+    },
+    "cuitRepresentada": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

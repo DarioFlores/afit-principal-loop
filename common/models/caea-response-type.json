@@ -1,0 +1,42 @@
+{
+  "name": "CAEAResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "fechaProceso": {
+      "type": "date"
+    },
+    "CAEA": {
+      "type": "number"
+    },
+    "periodo": {
+      "type": "number"
+    },
+    "orden": {
+      "type": "number"
+    },
+    "fechaDesde": {
+      "type": "date"
+    },
+    "fechaHasta": {
+      "type": "date"
+    },
+    "fechaTopeInforme": {
+      "type": "date"
+    },
+    "arrayObservaciones": {
+      "type": "ArrayCodigosDescripcionesType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

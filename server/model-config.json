@@ -1,0 +1,516 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "soap_MTXCAServiceSoap11Binding": {
+    "dataSource": null,
+    "public": true
+  },
+  "dummyRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "dummyResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DummyResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "autorizarComprobanteRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "AutorizarComprobanteRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ComprobanteType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayComprobantesAsociadosType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ComprobanteAsociadoType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOtrosTributosType": {
+    "dataSource": null,
+    "public": true
+  },
+  "OtroTributoType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayItemsType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ItemType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArraySubtotalesIVAType": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubtotalIVAType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayDatosAdicionalesType": {
+    "dataSource": null,
+    "public": true
+  },
+  "DatoAdicionalType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayCompradoresType": {
+    "dataSource": null,
+    "public": true
+  },
+  "CompradorType": {
+    "dataSource": null,
+    "public": true
+  },
+  "autorizarComprobanteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AutorizarComprobanteResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ComprobanteCAEResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayCodigosDescripcionesType": {
+    "dataSource": null,
+    "public": true
+  },
+  "CodigoDescripcionType": {
+    "dataSource": null,
+    "public": true
+  },
+  "solicitarCAEARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "SolicitarCAEARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "SolicitudCAEAType": {
+    "dataSource": null,
+    "public": true
+  },
+  "solicitarCAEAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SolicitarCAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "CAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarComprobanteCAEARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarComprobanteCAEARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarComprobanteCAEAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarComprobanteCAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ComprobanteCAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarUltimoComprobanteAutorizadoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarUltimoComprobanteAutorizadoRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultaUltimoComprobanteAutorizadoRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarUltimoComprobanteAutorizadoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarUltimoComprobanteAutorizadoResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarComprobanteRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarComprobanteRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultaComprobanteRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarComprobanteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarComprobanteResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposComprobanteRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposComprobanteRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposComprobanteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposComprobanteResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposDocumentoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposDocumentoRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposDocumentoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposDocumentoResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarAlicuotasIVARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarAlicuotasIVARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarAlicuotasIVAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarAlicuotasIVAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCondicionesIVARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCondicionesIVARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCondicionesIVAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCondicionesIVAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarMonedasRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarMonedasRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarMonedasResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarMonedasResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayCodigosDescripcionesStringType": {
+    "dataSource": null,
+    "public": true
+  },
+  "CodigoDescripcionStringType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCotizacionMonedaRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCotizacionMonedaRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCotizacionMonedaResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCotizacionMonedaResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarUnidadesMedidaRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarUnidadesMedidaRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarUnidadesMedidaResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarUnidadesMedidaResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPuntosVentaRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarPuntosVentaRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPuntosVentaResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarPuntosVentaResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayPuntosVentaType": {
+    "dataSource": null,
+    "public": true
+  },
+  "PuntoVentaType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPuntosVentaCAERequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarPuntosVentaCAERequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPuntosVentaCAEResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPuntosVentaCAEARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarPuntosVentaCAEARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPuntosVentaCAEAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarCAEANoUtilizadoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarCAEANoUtilizadoRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarCAEANoUtilizadoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarCAEANoUtilizadoResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposTributoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposTributoRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposTributoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposTributoResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarCAEANoUtilizadoPtoVtaRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarCAEANoUtilizadoPtoVtaRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarCAEANoUtilizadoPtoVtaResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarCAEANoUtilizadoPtoVtaResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCAEARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCAEARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCAEAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPtosVtaCAEANoInformadosRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarPtosVtaCAEANoInformadosRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarPtosVtaCAEANoInformadosResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarPtosVtaCAEANoInformadosResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCAEAEntreFechasRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCAEAEntreFechasRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarCAEAEntreFechasResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarCAEAEntreFechasResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayCAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "autorizarAjusteIVARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "AutorizarAjusteIVARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "autorizarAjusteIVAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AutorizarAjusteIVAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarAjusteIVACAEARequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarAjusteIVACAEARequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "informarAjusteIVACAEAResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InformarAjusteIVACAEAResponseType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposDatosAdicionalesRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposDatosAdicionalesRequestType": {
+    "dataSource": null,
+    "public": true
+  },
+  "consultarTiposDatosAdicionalesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConsultarTiposDatosAdicionalesResponseType": {
+    "dataSource": null,
+    "public": true
+  }
+}

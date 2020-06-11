@@ -1,0 +1,24 @@
+{
+  "name": "InformarAjusteIVACAEARequestType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "authRequest": {
+      "type": "AuthRequestType"
+    },
+    "comprobanteCAEARequest": {
+      "type": "ComprobanteType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

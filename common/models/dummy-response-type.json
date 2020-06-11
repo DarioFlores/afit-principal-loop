@@ -1,0 +1,27 @@
+{
+  "name": "DummyResponseType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "appserver": {
+      "type": "string"
+    },
+    "authserver": {
+      "type": "string"
+    },
+    "dbserver": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

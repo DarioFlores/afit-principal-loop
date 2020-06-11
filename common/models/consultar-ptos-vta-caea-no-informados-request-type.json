@@ -1,0 +1,24 @@
+{
+  "name": "ConsultarPtosVtaCAEANoInformadosRequestType",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "authRequest": {
+      "type": "AuthRequestType"
+    },
+    "CAEA": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "consultarCAEAEntreFechasResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarCAEAEntreFechasResponse": {
+      "type": "ConsultarCAEAEntreFechasResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

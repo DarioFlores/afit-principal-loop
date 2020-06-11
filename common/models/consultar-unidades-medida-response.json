@@ -1,0 +1,21 @@
+{
+  "name": "consultarUnidadesMedidaResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarUnidadesMedidaResponse": {
+      "type": "ConsultarUnidadesMedidaResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

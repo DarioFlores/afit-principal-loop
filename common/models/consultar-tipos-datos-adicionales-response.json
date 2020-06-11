@@ -1,0 +1,21 @@
+{
+  "name": "consultarTiposDatosAdicionalesResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "consultarTiposDatosAdicionalesResponse": {
+      "type": "ConsultarTiposDatosAdicionalesResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
